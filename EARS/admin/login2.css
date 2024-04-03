@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 100vh;
+    background-color: #f8f9fa; /* lighter background */
+}
+
+.container {
+    max-width: 500px; /* slightly reduced max-width */
+    width: 90%; /* adjust width percentage */
+    height: auto;
+    padding: 40px;
+    border: 2px solid #e9ecef; /* lighter border */
+    border-radius: 10px; /* increased border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* softened box-shadow */
+    background-color: #fff; /* white background */
+}
+
+.flex{
+    margin-left: 15px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 28px; /* slightly reduced font-size */
+    color: #333; /* darker text color */
+    text-align: center;
+    margin-bottom: 20px; /* added margin-bottom */
+
+}
+
+form {
+    font-size: 16px; /* reduced font-size */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px; /* slightly reduced padding */
+    border: 1px solid #ced4da; /* lighter border color */
+    border-radius: 5px; /* slightly increased border radius */
+    margin-bottom: 15px; /* adjusted margin-bottom */
+}
+
+label {
+    display: block; /* changed to block display */
+    margin-bottom: 8px; /* reduced margin-bottom */
+    font-weight: bold;
+    color: #333; /* darker text color */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff; /* formal blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* slightly increased font-size */
+}
+
+button:hover {
+    background-color: #0056b3; /* darker blue on hover */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}

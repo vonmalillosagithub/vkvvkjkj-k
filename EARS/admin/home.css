@@ -1,0 +1,7 @@
+body{
+    background: url(background.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}

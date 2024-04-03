@@ -1,0 +1,22 @@
+body{
+    background-color: #B2A59B;
+    font-family: Arial, Helvetica, sans-serif; 
+      
+}
+thead{
+    background-color: aliceblue;
+}
+td, tbody{
+    background-color: white;
+    border-color: black;
+}
+.btn-success{
+    color: black;
+    background-color: white;
+    border-color: black;
+    font-size: 18px;
+}
+.btn-success:hover{
+    background-color: gray;
+    border-color: gray;
+}
